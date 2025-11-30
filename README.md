@@ -3,7 +3,8 @@
 ## Problem Statement
 Without expert supervision, individual trainees lack real-time, objective feedback on exercise form, muscle fatigue, and work output. This absence of guidance significantly increases the risk of injury (particularly in compound movements) and leads to suboptimal training outcomes. Current market solutions fail to holistically address the complex interplay between biomechanics, muscular failure, and cardiovascular stress in real-time.
 
-[![Alt text](MTP images/Picture2.png)](https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Picture2.png)
+[![Alt text](MTP%20images/Picture2.png)](https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Picture2.png)
+
 
 ## Hardware Overview
 The physical system is built around an ESP32-WROOM-C6 microcontroller that aggregates data from a multi-sensor bio-kinematic array. The sensor suite includes five BNO055 IMUs (connected via a TCA9548A multiplexer) for skeletal tracking, two EMG sensors for analyzing bicep muscle activation, and a PPG sensor for heart rate monitoring. To ensure signal integrity, the device employs a dual-battery power architecture: one isolated rail powers the sensitive analog sensors (EMG/PPG) to prevent noise, while a separate rail powers the digital processing and WiFi transmission modules.
