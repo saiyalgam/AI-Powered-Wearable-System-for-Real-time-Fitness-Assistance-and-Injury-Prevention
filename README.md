@@ -9,11 +9,11 @@ Without expert supervision, individual trainees lack real-time, objective feedba
 ## Hardware Overview
 The physical system is built around an ESP32-WROOM-C6 microcontroller that aggregates data from a multi-sensor bio-kinematic array. The sensor suite includes five BNO055 IMUs (connected via a TCA9548A multiplexer) for skeletal tracking, two EMG sensors for analyzing bicep muscle activation, and a PPG sensor for heart rate monitoring. To ensure signal integrity, the device employs a dual-battery power architecture: one isolated rail powers the sensitive analog sensors (EMG/PPG) to prevent noise, while a separate rail powers the digital processing and WiFi transmission modules.
 
-(https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Picture3.jpg)
+[![Picture 3](MTP%20images/Picture3.jpg)](https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Picture3.jpg)
 
 ## Sensor Placement
 
-https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Sensor%20Placement%20New.jpg
+[![Sensor Placement](MTP%20images/Sensor%20Placement%20New.jpg)](https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Sensor%20Placement%20New.jpg)
 
 
 ## AI Methodology & Software Architecture
@@ -61,7 +61,7 @@ CNN feature vectors are fed into an LSTM
 
 The LSTM tracks how fatigue accumulates across every repetition and set
 
-
+[![Picture 4](MTP%20images/Picture4.png)](https://github.com/saiyalgam/AI-Powered-Wearable-System-for-Real-time-Fitness-Assistance-and-Injury-Prevention/blob/main/MTP%20images/Picture4.png)
 
 3. Posture Correction Engine (Kinematics)
 
