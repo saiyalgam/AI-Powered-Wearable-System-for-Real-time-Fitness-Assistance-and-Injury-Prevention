@@ -34,12 +34,13 @@ Adaptive Recommendation System
 Before feeding data into the neural network, raw sEMG signals undergo multiple preprocessing steps to remove noise, artifacts, and power-line interference.
 
 Processing Steps
-Step	Method	Purpose
-Filtering	Butterworth Band-pass (20–450 Hz)	Retains physiological muscle activity frequencies
-Noise Removal	IIR Notch Filter (50 Hz)	Removes electrical power-line noise
-Transformation	Rectification (Absolute Value)	Extracts the envelope of muscle activation
-Normalization	Z-score (μ = 0, σ = 1)	Standardizes signal amplitude across users
-2. Deep Learning Architecture — Muscle Fatigue Prediction
+| Step           | Method                               | Purpose                                                 |
+|----------------|---------------------------------------|---------------------------------------------------------|
+| Filtering      | Butterworth Band-pass (20–450 Hz)     | Retains physiological muscle frequencies.               |
+| Noise Removal  | IIR Notch Filter (50 Hz)              | Eliminates electrical power-line interference.          |
+| Transformation | Rectification (Absolute Value)        | Extracts the envelope of muscle activation.             |
+| Normalization  | Z-score (μ = 0, σ = 1)                | Standardizes amplitude across different users.          |
+
 
 The fatigue prediction system uses a hybrid CNN–LSTM architecture, combining spatial and temporal deep learning.
 
